@@ -16,11 +16,9 @@ main {
 
 main section {
   height: 600px;
+  margin: 20px 0 20px 0;
 }
 
-main section div {
-  height: 30px;
-}
 .content_info {
   display: inline-flex;
 }
@@ -28,10 +26,47 @@ main section div {
   width: 200px;
 }
 
-article {
-  margin-top: 100px;
+.description {
+  height: 170px;
+  margin: 20px 0 0 0;
+}
+.dot {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.author__info a {
+  text-decoration: none;
+  position: relative;
+  left: 150px;
+  top: 5px;
+  text-align: center;
+  vertical-align: baseline;
+  width: 120px;
+  height: 25px;
+  background-color: red;
+  color: white;
+}
+.flex {
+  display: flex;
 }
 
+article {
+  margin-top: 300px;
+}
+.num_comment {
+  height: 50px;
+  vertical-align: middle;
+  display: flex;
+}
+
+.num_comment span {
+  position: relative;
+  left: 20px;
+}
 aside {
   width: 35%;
   height: 100px;
