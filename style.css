@@ -52,4 +52,65 @@ aside {
 }
 
 .search {
+  padding: 0 16px;
+}
+
+.top div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.humberg {
+  color: #606060;
+  cursor: pointer;
+  margin: 0 16px 0 0;
+
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 129px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.country {
+  font-size: 10px;
+  margin: 0 0 0 2px;
+}
+
+.search {
+  margin: 0 40px;
+  color: #606060;
+}
+
+.search form {
+  width: 100%;
+  max-width: 640px;
+  margin: auto;
+  position: relative;
+}
+
+.search input {
+  width: 100%;
+}
+
+.search button {
+  width: 65px;
+
+  border: 1px solid #d3d3d3;
+  border-radius: 0 2px 2px 0;
+  color: #606060;
+}
+
+.video-icon,
+.apps-icon,
+.menu-icon,
+.account-icon {
+  width: 24px;
 }
