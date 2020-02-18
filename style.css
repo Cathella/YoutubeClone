@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .humberg {
@@ -33,6 +33,7 @@
 
 .search {
     margin: 0 40px;
+    color: #606060;
 }
 
 .search form {
@@ -48,11 +49,12 @@
 
 .search button {
     width: 65px;
-    pointer: cursor;
+    
     border: 1px solid #d3d3d3;
     border-radius: 0 2px 2px 0;
+    color: #606060;
 }
 
 .video-icon, .apps-icon, .menu-icon, .account-icon {
-    width: 60px;
+    width: 24px;
 }
