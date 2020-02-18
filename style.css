@@ -1,7 +1,8 @@
-.top {
-    background-color: white;
-    height: 60px;
-    width: 100%;
+.top div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .humberg {
@@ -12,8 +13,10 @@
     width: 150px;
 }
 
-.search {
-    
+.search button {
+    width: 60px;
 }
 
-.
+.video-icon, .apps-icon, .menu-icon, .account-icon {
+    width: 60px;
+}
