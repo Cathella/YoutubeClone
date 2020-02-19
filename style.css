@@ -12,6 +12,11 @@ body {
   display: flex;
 }
 
+.sect {
+  position: relative;
+  top: 40px;
+}
+
 main {
   width: 70%;
   min-width: 650px;
@@ -93,12 +98,63 @@ aside div p {
   padding-top: 15px;
 }
 
+.summary-show {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.seen {
+  display: flex;
+  /* line-height: 2.1rem; */
+  font-weight: 400;
+  color: #646064;
+  margin-right: 300px;
+}
+
+p.view {
+  margin-right: 5px;
+}
+
+p.date {
+  margin-left: 5px;
+}
+
+.dislike {
+  margin-left: 20px;
+}
+
+.bottom-line {
+  border-bottom: 3px solid #909090;
+}
+
+.share, .save {
+  color: #606060;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.share i, .save i {
+  padding-right: 10px;
+}
+
+.save {
+  margin-left: 20px
+}
+
+.three-dots {
+  margin-left: 30px;
+  color: #606060;
+}
+
 
 .top {
   background-color: white;
   height: 60px;
   width: 100%;
   font-family: 'Roboto', 'Noto', sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
 }
 
 .humberg {
