@@ -165,6 +165,10 @@ aside div p {
   margin: 0 15px;
 }
 
+.video-icon {
+  margin-left: 50px;
+}
+
 .account-icon {
   display: flex;
   flex-direction: row;
@@ -173,10 +177,13 @@ aside div p {
   border-radius: 2px;
   color: #065fd4;
   margin-left: 100px;
-  padding: 6px 10px;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 
 .account-icon p {
   padding-left: 8px;
   text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
 }
