@@ -2,8 +2,10 @@
   /* border: 1px solid black; */
   padding: 0;
   margin: 0;
-  background-color: #f9f9f9;
   text-decoration-line: none;
+}
+body {
+  background-color: #f9f9f9;
 }
 .flex {
   display: flex;
@@ -76,7 +78,7 @@ aside div p {
 }
 
 .top {
-  background-color: transparent;
+  background-color: white;
   height: 60px;
   width: 100%;
 }
@@ -140,9 +142,11 @@ aside div p {
 
 .search .search-icon {
   width: 24px;
+  height: 24px;
   color: #606060;
   background-color: #f8f8f8;
-  /* margin-left: -5px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .search button {
@@ -158,4 +162,9 @@ aside div p {
   width: 24px;
   color: #606060;
   margin: 0 15px;
+}
+
+.account-icon {
+  display: flex;
+  flex-direction: row;
 }
