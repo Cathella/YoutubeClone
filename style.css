@@ -51,14 +51,19 @@ article {
 .comment {
   padding: 15px 0;
 }
+.comment span {
+  margin: 10px;
+}
 .num_comment {
-  height: 50px;
+  height: auto;
   vertical-align: middle;
 }
 
-.num_comment span {
+.num_comment a {
   position: relative;
-  left: 20px;
+  border-radius: 5%;
+  padding: 5px;
+  left: 30%;
 }
 
 aside {
@@ -81,7 +86,7 @@ aside div p {
   background-color: white;
   height: 60px;
   width: 100%;
-  font-family: 'Roboto','Noto',sans-serif;
+  font-family: 'Roboto', 'Noto', sans-serif;
 }
 
 .humberg {
