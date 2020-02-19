@@ -81,6 +81,7 @@ aside div p {
   background-color: white;
   height: 60px;
   width: 100%;
+  font-family: 'Roboto','Noto',sans-serif;
 }
 
 .humberg {
@@ -167,4 +168,15 @@ aside div p {
 .account-icon {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  border: 1px solid #065fd4;
+  border-radius: 2px;
+  color: #065fd4;
+  margin-left: 100px;
+  padding: 6px 10px;
+}
+
+.account-icon p {
+  padding-left: 8px;
+  text-transform: uppercase;
 }
