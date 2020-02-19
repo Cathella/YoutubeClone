@@ -257,6 +257,49 @@ p.date {
 
 footer {
   background-color: white;
-  height: 70px;
-  text-align: center;
+  /* height: 70px; */
+  /* text-align: center; */padding: 15px 30px;
+  margin-top: 40px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+pri-links, .links {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.links a {
+  color: #282828;
+}
+
+a.space {
+  margin-left: 20px;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.language, .location, .restricted, .history, .help {
+  font-size: 13px;
+  background-color: #f8f8f8;
+  padding: 6px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  margin-left: 20px;
 }
