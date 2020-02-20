@@ -52,13 +52,9 @@ main section {
 .follow {
   text-align: center;
   position: relative;
-  /* left: 60%; */
   top: 1px;
-  /* width: 150px; */
-  /* height: 30px; */
   background-color: #cc0000;
   border-radius: 3px;
-  /* padding: 6px 0 0 0; */
   padding: 10px 13px;
   font-weight: bold;
 }
@@ -169,15 +165,24 @@ p.date {
   color: #606060;
 }
 
-.top {
+nav {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   background-color: white;
   height: 60px;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 99999;
+}
+
+#left-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
 }
 
 .logo {
@@ -189,8 +194,6 @@ p.date {
 }
 
 .humberg {
-  width: 50px;
-  color: #606060;
   cursor: pointer;
   margin: 0 16px 0 0;
   width: 40px;
@@ -250,6 +253,13 @@ p.date {
   background: #f8f8f8;
 }
 
+#right-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 25px;
+}
+
 .video-icon,
 .apps-icon,
 .menu-icon {
@@ -262,7 +272,7 @@ p.date {
   margin-left: 50px;
 }
 
-.account-icon {
+/* .account-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -272,14 +282,14 @@ p.date {
   margin-left: 100px;
   padding: 6px 12px;
   cursor: pointer;
-}
+} */
 
-.account-icon p {
+/* .account-icon p {
   padding-left: 8px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
-}
+} */
 
 footer {
   background-color: white;
