@@ -279,7 +279,7 @@ footer {
   padding-top: 10px;
 }
 
-pri-links, .links {
+.pri-links, .links {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -288,8 +288,19 @@ pri-links, .links {
   padding-top: 20px;
 }
 
-.links a {
+.pri-links
+ {
+  padding-bottom: 40px;
+}
+
+.links a
+ {
   color: #282828;
+}
+
+.pri-links a
+ {
+  color: #666666;
 }
 
 a.space {
