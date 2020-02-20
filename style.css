@@ -42,19 +42,25 @@ main section {
 }
 
 .author__info {
-  width: 100%;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .follow {
   text-align: center;
   position: relative;
-  left: 60%;
+  /* left: 60%; */
   top: 1px;
-  width: 150px;
-  height: 30px;
-  background-color: red;
-  border-radius: 4px;
-  padding: 6px 0 0 0;
+  /* width: 150px; */
+  /* height: 30px; */
+  background-color: #cc0000;
+  border-radius: 3px;
+  /* padding: 6px 0 0 0; */
+  padding: 10px 13px;
+  font-weight: bold;
 }
 .follow a {
   color: white;
@@ -104,6 +110,10 @@ aside div p {
 .summary-show {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .seen {
@@ -111,7 +121,11 @@ aside div p {
   /* line-height: 2.1rem; */
   font-weight: 400;
   color: #646064;
-  margin-right: 300px;
+  /* margin-right: 300px; */
+}
+
+#right-side {
+  display: flex;
 }
 
 p.view {
@@ -120,6 +134,10 @@ p.view {
 
 p.date {
   margin-left: 5px;
+}
+
+.like a, .dislike a {
+  color: #909090;
 }
 
 .dislike {
