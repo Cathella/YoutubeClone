@@ -2,7 +2,7 @@
 
 > Embedding Images and Video.
 > This project consists of building an HTML document that matches the appearance of Youtube video player page.
-> ![Preview](https://rawcdn.githack.com/Cathella/YoutubeClone/tree/page_layout/result.png)
+> ![Preview](https://rawcdn.githack.com/Cathella/YoutubeClone/8de17b3d5af1876770b278020891c2f1def97417/result.png)
 
 ## Additional description about the project and its features.
 
