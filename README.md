@@ -1,55 +1,54 @@
-# YoutubeClone
-Our first project will require you to draw on your new understanding of working with media by building YouTube’s video player page (the example video is one where I describe making contributions to open source).
+# Yutube Project
 
-The goal here isn’t to produce an exact replica of the YouTube video page, but to focus on making the media elements show up. That means two things – embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
+> Embedding Images and Video.
+> This project consists of building an HTML document that matches the appearance of Youtube video player page.
+> ![Preview](https://rawcdn.githack.com/Cathella/YoutubeClone/8de17b3d5af1876770b278020891c2f1def97417/result.png)
 
-How far you go from there in terms of styling is up to you – some of you will already be more comfortable with CSS than others, so knock yourself out.
+## Additional description about the project and its features.
 
-There are other elements on the YouTube page which are produced with Javascript and you don’t need to worry about them – basically, anything that changes the page by clicking on it is wired up using Javascript. An example is the “Show more” link below the description, which dynamically expands to show more. Again, don’t worry about these dynamic elements!.
+**This Project is the only part of the “Basic HTML Page Structure” lesson that we will complete, all other sections in this lesson will be skipped as you should be already familiar with basics. If you feel like you need some refresh, go back and read all lessons in this section.\*
+**Your task is to clone YouTube’s video player page. Please use web archive link: http://archive.today/Bss88 as a source page.\*
 
-Also, don’t worry about making the comment form work properly… your goal is to make the page look similar and display video.
+## Additional Microverse Requirements
 
-Requirements shortcut list
-As this is your first project, we prepared a shortcut list of requirements. This list is based on requirements written in the task description and will help you control your progress.
+## Getting Started
 
-Please remember: In the upcoming tasks you should be able to create a similar shortcut list on your own.
+**Section** \*_To use the project in you web page clone it by git clone and if there is some issues please contact me @Bekhzod96_
 
+To get a local copy up and running follow these simple example steps.
 
-Navigation bar
+### Prerequisites
 
-It has an embedded image that represents a logo.
+### Setup
 
-The logo is aligned to the leftmost part of the navbar.
+### Install
 
-It has an input tag that represents a search bar.
+### Usage
 
-The search bar is aligned to the middle of the navbar.
+### Run tests
 
-It has a button tag that represents the search button.
+### Deployment
 
-The search button is at the end (rightmost part) of the search bar.
+## Authors
 
-It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
-Video
+👤 **Catherine**
 
-It is displayed.
+- Github: @githubhandle
+- Twitter: @githubhandle
+- Linkedin: catherine-nakitto-51ba2a40
 
-It shows the video title.
+👤 **Bekhzod**
 
-It shows the number of views. 
+- Github: @Bekhzod96
+- Twitter: @25d47e8987f740b
+- Linkedin: bekhzod-akhrorov-b24232113
 
-It has like and dislike icons. 
+## 🤝 Contributing
 
-It has a share button. 
+## Acknowledgments
 
-It shows the avatar of the user who uploaded the video. 
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-It has a subscribe button.
-
-Sidebar Recommended videos
-
-It shows the recommended video’s thumbnail preview (as image not as an actual video).
-
-It shows the title of the video.
-
-It shows the number of views.
+## 📝 License
