@@ -33,8 +33,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Catherine**
 
-- Github: @githubhandle
-- Twitter: @githubhandle
+- Github: @Cathella
+- Twitter: @cathella9
 - Linkedin: catherine-nakitto-51ba2a40
 
 👤 **Bekhzod**
